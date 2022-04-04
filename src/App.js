@@ -12,15 +12,18 @@ import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
+   <>
+   <Header></Header>
     <Routes>
       <Route path="/" element={<Home/>}/> 
       <Route path="/blogs" element={<Blogs/>}/> 
-      <Route path="/About" element={<About/>}/> 
-      <Route path="/Dashboard" element={<Dashboard/>}/> 
-      <Route path="/UserReviews" element={<UserReviews/>}/> 
+      <Route path="/about" element={<About/>}/> 
+      <Route path="/dashboard" element={<Dashboard/>}/> 
+      <Route path="/reviews" element={<UserReviews/>}/> 
       <Route path="*" element={<NotFound/>}/> 
 
     </Routes>
+   </>
   );
 }
 
