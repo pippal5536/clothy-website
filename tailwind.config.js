@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'angel' : ['ANGELWISH','serif']
+        'lin' : ['Linotext ','mono']
       }
     },
   },
