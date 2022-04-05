@@ -3,7 +3,7 @@ import homeImage from '../../Assets/images/home.jpg'
 
 const Home = () => {
     return (
-        <div>
+        <div className='mt-16'>
             <div className='grid grid-cols-2 gap-y-4'>
                 <div className='my-14 mx-10 font-mono text-8xl font-bold'>
                     <h1>BEST DEAL TODAY!!!</h1>

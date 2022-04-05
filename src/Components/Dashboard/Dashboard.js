@@ -45,7 +45,7 @@ const Dashboard = () => {
 
 
     return (
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-2 mt-8' >
             <div className='mt-16'>
                 <LineChart width={600} height={300} data={data}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8" />
