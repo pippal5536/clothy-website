@@ -17,7 +17,7 @@ const Home = () => {
         <div className='mt-16'>
             <div className='grid md:grid-cols-2 gap-y-4'>
                 <div className='my-14 mx-10 font-mono  font-bold'>
-                    <h1 className='text-8xl'>Clothy! is a popular platform for best clothing reviews.</h1>
+                    <h1 className='text-5xl'>Clothy! is a popular platform for best clothing reviews.</h1>
                     <h2 className='text-2xl'>we provide an extensive base of  reviews prepared by both experts and actual users so you can easily find the best cloth to buy. </h2>
                     <div className='flex justify-center'>
                         <button className='text-white bg-violet-900 p-6 rounded-full mt-4 text-3xl '>Explore!</button>
@@ -34,7 +34,7 @@ const Home = () => {
             </div>
             <div className='text-center mt-32'>
                 
-                <h1 className='font-mono font-bold text-8xl'>USER REVIEWS({reviews.length})</h1>
+                <h1 className='font-mono font-bold text-5xl'>USER REVIEWS({reviews.length})</h1>
                 <div>
            
                <div className='grid md:grid-cols-3 mt-8 gap-4 mx-4 font-mono '>

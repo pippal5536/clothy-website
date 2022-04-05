@@ -45,9 +45,9 @@ const Dashboard = () => {
 
 
     return (
-        <div className='grid md:grid-cols-2 mt-8  ' >
+        <div className='grid md:grid-cols-2 mt-8 justify-center  ' >
             <div className='mt-16'>
-                <LineChart width={600} height={300} data={data}>
+                <LineChart width={400} height={300} data={data}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                     <CartesianGrid stroke="#ccc" />
                     <XAxis dataKey="investment" />
@@ -55,7 +55,7 @@ const Dashboard = () => {
                 </LineChart>
             </div>
            <div className='mt-32'>
-           <BarChart width={600} height={250} data={data}>
+           <BarChart width={400} height={250} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
                 <YAxis />
