@@ -13,7 +13,7 @@ const Home = () => {
                     <h1>BEST DEAL TODAY!!!</h1>
                     <h2>BUY WIHIN 18th APRIL TO GET 30% DISCOUNT!</h2>
                     <div className='flex justify-center'>
-                        <button className='text-white bg-black p-6 rounded-full mt-4 text-6xl '>BUY NOW!</button>
+                        <button className='text-white bg-violet-900 p-6 rounded-full mt-4 text-6xl '>BUY NOW!</button>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ const Home = () => {
                 
                 <h1 className='font-mono font-bold text-8xl'>USER REVIEWS</h1>
                
-                <button  className=' font-mono font-bold  text-white bg-black p-4 rounded-full mt-16 '><Link to='/reviews'>See More Reviews!</Link></button>
+                <button  className=' font-mono font-bold  text-white bg-violet-900 p-4 rounded-full mt-16 '><Link to='/reviews'>See More Reviews!</Link></button>
             </div>
         </div>
     );
