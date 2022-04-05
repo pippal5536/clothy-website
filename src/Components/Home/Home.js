@@ -1,5 +1,9 @@
 import React from 'react';
-import homeImage from '../../Assets/images/home.jpg'
+import homeImage from '../../Assets/images/home.jpg';
+import { Link } from 'react-router-dom';
+
+
+
 
 const Home = () => {
     return (
@@ -22,8 +26,10 @@ const Home = () => {
 
             </div>
             <div className='text-center mt-32'>
+                
                 <h1 className='font-mono font-bold text-8xl'>USER REVIEWS</h1>
-                <button className=' font-mono font-bold  text-white bg-black p-4 rounded-full mt-16 '>See more reviews</button>
+               
+                <button  className=' font-mono font-bold  text-white bg-black p-4 rounded-full mt-16 '><Link to='/reviews'>See More Reviews!</Link></button>
             </div>
         </div>
     );
